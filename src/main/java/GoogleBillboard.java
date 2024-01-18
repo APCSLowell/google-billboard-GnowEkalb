@@ -7,7 +7,7 @@ public class GoogleBillboard {
 	  for (int i = 0; i < e.length(); i++){
 	    str = e.substring(i, i+10);
 	    if (isPrime(Double.parseDouble(str)) == true){
-	      System.out.println(str);
+	      System.out.println(Double.parseDouble(str));
 	      break;
 	    }
 	  }
